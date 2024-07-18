@@ -88,45 +88,33 @@ export default function Home() {
           filter: 'blur(8px)', 
         }}
       />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+      <div
         className='relative flex flex-col gap-6 p-28 px-3 z-10'
         style={{
           backgroundColor: 'rgba(255, 255, 255, 0.3)',
           height: '700px',
         }}
       >
-        <motion.h1
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+        <h1
           className='text-blue-600 italic text-xl lg:text-3xl mb-4'
         >
           "Your Favourite Place With{' '}
           <span className='text-slate-500 font-bold'>ZERO </span> Broker Fees."
-        </motion.h1>
-        <motion.h1
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+        </h1>
+        <h1
           className='text-slate-700 font-bold text-3xl lg:text-6xl'
         >
           Discover your next ideal  <br /><span className='text-slate-500 italic'>location</span>
           {' '}effortlessly 
-        </motion.h1>
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.7 }}
+        </h1>
+        <div
           className='text-black-400 text-xl sm:text-2xl my-6'
         >
           Property Pulse is the best place to find your future perfect place to
           live. <br />
           We have a wide range of properties for you to choose from.
-        </motion.div>
-        <motion.div
+        </div>
+        <div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.9 }}
@@ -137,8 +125,8 @@ export default function Home() {
           >
             Let's reach now...
           </Link>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </div>
 
     <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
